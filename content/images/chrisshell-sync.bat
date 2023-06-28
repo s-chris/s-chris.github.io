@@ -1,0 +1,1 @@
+aws s3 sync c:\env\chrisshell.com s3://chrisshell.com/ --exclude '.git/*' --exclude '*.bat" --exclude '*.exe' --exclude '*.cmd'
